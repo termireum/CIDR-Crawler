@@ -3,4 +3,4 @@ Simple Python script used to generate a list of IP addresses within a network ba
 
 **How to use?**
 
-python3 cidr.py -c 192.168.0.0/24 -o custom_filename.txt
+python3 cidr-crawler.py -c 192.168.0.0/24 -o custom_filename.txt
