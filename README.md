@@ -15,6 +15,17 @@ optional arguments:
   -o OUTPUT, --output OUTPUT
                         Name of file to save the list of IPs
 
+**Example command to run the script while scanning for open ports within a specific CIDR range**
+
+Example: python3 cidr.py -c 192.168.0.0/24 -o ip_list.txt -p 80,443,22
+
+In this example:
+
+-c 192.168.0.0/24 specifies the CIDR range to be scanned.
+
+-o ip_list.txt specifies the filename to save the list of IP addresses.
+
+-p 80,443,22 specifies the ports to be scanned, in this case, 80 (HTTP), 443 (HTTPS), and 22 (SSH). You can add or remove these ports as needed, separating them by commas if specifying more than one port.
 
 **Disclaimer**
 
