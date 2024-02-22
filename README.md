@@ -3,7 +3,7 @@ CIDR-Crawler is script used to generate a list of IP addresses within a network 
 
 **How to use?**
 
-**usage:** cidr.py [-h] -c CIDR -o OUTPUT
+**usage:** cidr-crawler.py [-h] -c CIDR -o OUTPUT
 
 **Example:** python3 cidr-crawler.py -c 192.168.0.0/24 -o custom_filename.txt
 
@@ -17,7 +17,7 @@ optional arguments:
 
 **Example command to run the script while scanning for open ports within a specific CIDR range**
 
-Example: python3 cidr.py -c 192.168.0.0/24 -o ip_list.txt -p 80,443,22
+Example: python3 cidr-crawler.py -c 192.168.0.0/24 -o ip_list.txt -p 80,443,22
 
 In this example:
 
